@@ -62,6 +62,10 @@ DROP TABLE opilane;
 DELETE FROM opilane WHERE opilaneID=1;
 Select * from opilane;
 ```
+
+
+
+```sql
 --FOREIGN KEY
 CREATE TABLE opitamine(
 opitamineID int Primary Key identity(1,1),
@@ -78,6 +82,6 @@ Select * from opilane;
 INSERT INTO opitamine
 --VALUES ('2026-4-16', 'andmebaasid', 2, 5)
 VALUES ('2026-4-16', 'andmebaasid', 5, 5)
-```sql
+
 
 ```
