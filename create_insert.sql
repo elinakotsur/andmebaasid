@@ -93,7 +93,7 @@ INSERT INTO tund
 VALUES('2026-12-3', 'arvutivorgud', '1','2');
 
 
-
+ 
 
 Select * FROM opitamine;
 Select * from opilane;
