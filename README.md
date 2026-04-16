@@ -40,6 +40,25 @@ keskmineHinne decimal(2,1) );--(2--kokku, 1 peale komat nt 4.5)
 SELECT * FROM opilane;
 ```
 - Andmete sisestamine tabelisse
-```
+```sql
+--tabeli täitmine
+INSERT INTO opilane
+VALUES ('Elina','Kotsur','2008-5-3',1,'+364785','Tallin', 4.5)
 
+INSERT INTO opilane(perenimi, eesnimi, keskmineHinne)
+VALUES ('Kovalenko','Dasa', 4.2),
+('Pozekov','Dima', 4.6),
+('Järvine',' Mihael', 3.6);
+
+UPDATE opilane SET stip=1, aadress='Tallinn';
+
+UPDATE opilane SET stip=1, aadress='Tartu' WHERE opilaneID=4;
+
+--kustutamine 
+--tabeli kustustamine
+DROP TABLE opilane;
+
+--andmete kustutamine tabelis
+DELETE FROM opilane WHERE opilaneID=1;
+Select * from opilane;
 ```
