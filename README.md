@@ -62,6 +62,23 @@ DROP TABLE opilane;
 DELETE FROM opilane WHERE opilaneID=1;
 Select * from opilane;
 ```
+## Seosed (tabelivahelised seosed)
+- üks-ühele (nt mees-naine)
+- üks-mitmele (nt ema-lapsed)
+<img width="544" height="368" alt="{E342D6FD-FB11-4E0D-BCB3-2715C70B3FFA}" src="https://github.com/user-attachments/assets/a8a6c448-fc70-43f4-8abb-c99490e1d8af" />
+
+  
+- mitu-mitele (nt õpilased - õpetajad)
+
+
+## PIIRANGUD 
+constraint- ограничения (5)
+
+- PRIMARY KEY
+- FOREIGN KEY
+- CHECK
+- NOT NULL
+- UNIQUE
 
 
 
