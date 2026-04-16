@@ -21,7 +21,7 @@ andmebaaside seotud SQL kood ja konspektid
 ```
 ## SQL - strktuure Query Language - struktuureeritud päringu keel
 - Tabeli loomine
-  ```
+```sql
   CREATE DATABASE KOTSURbaas;
 --ab kustutamine
 DROP DATABASE Robert
@@ -38,7 +38,7 @@ aadress TEXT,
 keskmineHinne decimal(2,1) );--(2--kokku, 1 peale komat nt 4.5)
 
 SELECT * FROM opilane;
-  ```
+```
 - Andmete sisestamine tabelisse
 ```
 
