@@ -24,7 +24,7 @@ andmebaaside seotud SQL kood ja konspektid
   ```
   
   ```
-- Andmete 
+- Andmete sisestamine tabelisse
 ```
 
 ```
