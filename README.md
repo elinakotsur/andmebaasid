@@ -62,3 +62,22 @@ DROP TABLE opilane;
 DELETE FROM opilane WHERE opilaneID=1;
 Select * from opilane;
 ```
+--FOREIGN KEY
+CREATE TABLE opitamine(
+opitamineID int Primary Key identity(1,1),
+kuupaev DATE,
+opitamine varchar(30),
+opilaneID int, 
+FOREIGN KEY (opilaneID) REFERENCES opilane(opilaneID),
+hinne int CHECK(hinne<=5));
+
+Select * FROM opitamine;
+Select * from opilane;
+
+--täidamine tabeli
+INSERT INTO opitamine
+--VALUES ('2026-4-16', 'andmebaasid', 2, 5)
+VALUES ('2026-4-16', 'andmebaasid', 5, 5)
+```sql
+
+```
