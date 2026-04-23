@@ -1,8 +1,9 @@
 # Andmebaasid
 andmebaaside seotud SQL kood ja konspektid
 
-##Sisukord
+## Sisukord
 - [Põhimõisted](#pohimoisted)
+- [Andmetüübiid](#andmetüübiid)
 
 
 
