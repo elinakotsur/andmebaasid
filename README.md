@@ -5,9 +5,9 @@ andmebaaside seotud SQL kood ja konspektid
 - [Põhimõisted](#pohimoisted)
 - [Andmetüübiid](#andmetüübiid)
 - [SQL-strktuure Query Language](#SQL-strktuure-Query-Language)
-- [Seosed (tabelivahelised seosed)](#seosed-(tabelivahelised-seosed))
+- [Seosed](#seosed)
 - [PIIRANGUD](#PIIRANGUD)
-- [](#)
+- [ALTER TABLE](#ALTER TABLE)
 
 
 
@@ -74,7 +74,8 @@ DROP TABLE opilane;
 DELETE FROM opilane WHERE opilaneID=1;
 Select * from opilane;
 ```
-## Seosed (tabelivahelised seosed)
+## Seosed 
+(tabelivahelised seosed)
 - üks-ühele (nt mees-naine)
 - üks-mitmele (nt ema-lapsed)
 <img width="544" height="368" alt="{E342D6FD-FB11-4E0D-BCB3-2715C70B3FFA}" src="https://github.com/user-attachments/assets/a8a6c448-fc70-43f4-8abb-c99490e1d8af" />
