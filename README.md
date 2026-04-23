@@ -7,7 +7,7 @@ andmebaaside seotud SQL kood ja konspektid
 - [SQL-strktuure Query Language](#SQL-strktuure-Query-Language)
 - [Seosed](#seosed)
 - [PIIRANGUD](#PIIRANGUD)
-- [ALTER TABLE](#ALTER TABLE)
+- [ALTER TABLE](#ALTER-TABLE)
 
 
 
