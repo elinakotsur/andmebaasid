@@ -108,6 +108,12 @@ VALUES ('2026-4-16', 'andmebaasid', 5, 5)
 1. uue veeru lisamine
 
 ```sql
-
-
+--uue veeru lisamine
+ALTER TABLE opilane ADD isikukood varchar(11);
+--veeru kustutamine
+ALTER TABLE opilane DROP COLUMN isikukood;
+--andmetüübi muutmine varchar(11)--char(11)
+ALTER TABLE opilane ALTER COLUMN isikukood char(11);
+--sisseehitatud protsedur miss näitab tabeli
+sp_help opilane;
 ```
