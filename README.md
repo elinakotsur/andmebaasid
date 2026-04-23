@@ -4,6 +4,10 @@ andmebaaside seotud SQL kood ja konspektid
 ## Sisukord
 - [Põhimõisted](#pohimoisted)
 - [Andmetüübiid](#andmetüübiid)
+- [SQL - strktuure Query Language - struktuureeritud päringu keel](#sql-strktuure-query-language-struktuureeritud-päringu-keel)
+- [](#)
+- [](#)
+- [](#)
 
 
 
