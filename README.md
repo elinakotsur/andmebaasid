@@ -4,8 +4,8 @@ andmebaaside seotud SQL kood ja konspektid
 ## Sisukord
 - [Põhimõisted](#pohimoisted)
 - [Andmetüübiid](#andmetüübiid)
-- [SQL - strktuure Query Language](#sql-strktuure-query-language)
-- [](#)
+- [SQL - strktuure Query Language](#SQL-strktuure-Query-Language)
+- [Seosed (tabelivahelised seosed)](#seosed-(tabelivahelised-seosed))
 - [](#)
 - [](#)
 
