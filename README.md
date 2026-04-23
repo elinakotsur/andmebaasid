@@ -102,3 +102,12 @@ VALUES ('2026-4-16', 'andmebaasid', 5, 5)
 
 
 ```
+
+## ALTER TABLE
+- tabeli struktuuri muutmine (struktuur: veerudenimed, andmetüübid,piirangud)
+1. uue veeru lisamine
+
+```sql
+
+
+```
