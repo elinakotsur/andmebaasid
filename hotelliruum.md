@@ -164,7 +164,7 @@ hosted_atID int primary key identity(1,1),
 guestID int,
 foreign key(guestID) references guest(guestID),
 occupied_roomID int,
-foreign key(occupied_roomID) references occupied_room(occupied_roomID),
+foreign key(occupied_roomID) references occupied_room(occupied_roomID)
 );
 
 select * from hosted_at
