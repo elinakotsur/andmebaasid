@@ -73,6 +73,7 @@ values ('for_millioner', 150);
 <img width="310" height="84" alt="{C1532AEE-68D4-4128-8388-696959FCAEC5}" src="https://github.com/user-attachments/assets/6c68d459-52ac-417e-8497-733c16a495f0" />
 
 - room
+  
 ```sql
 --4. room
 
@@ -95,9 +96,11 @@ values ('B113', 'super_room', 'vaba', 1, 2)
 
 insert into room
 values ('B333', 'premium_room', 'vaba', 1, 3)
+
 ```
 <img width="419" height="102" alt="{549A8D1D-A95F-4946-A077-0E3D168A4691}" src="https://github.com/user-attachments/assets/3191e3ef-4bac-4e7a-b4c9-2ecb557aa5ae" />
 - reserved_room
+
 ```sql
 --5. reserved_room
 
