@@ -1,5 +1,5 @@
 ## Andmebaas hotelliruumi reserverimine
-###Table
+### Table
 ```sql
 create Database hotellKOTSURbaas;
 use hotellKOTSURbaas;
