@@ -177,3 +177,5 @@ insert into hosted_at
 values(3,2);
 ```
 <img width="321" height="115" alt="{E35FA1A1-2AE4-4ACF-B3FE-5BE3BAD9CF45}" src="https://github.com/user-attachments/assets/fd8236f5-3c9f-43e1-a7b1-f452a8070e12" />
+### kõik diogramm
+<img width="559" height="754" alt="{E5500B0F-A48B-49D3-812E-7FDDB676A991}" src="https://github.com/user-attachments/assets/6c04f1c9-79d4-48cf-9057-242faf877ca2" />
