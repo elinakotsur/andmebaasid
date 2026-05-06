@@ -23,3 +23,32 @@
 
 <img width="437" height="117" alt="{B7B2375B-B703-4915-A827-FF7920EE1CDC}" src="https://github.com/user-attachments/assets/7e04a02b-40fb-4d12-814e-842c44cebc79" />
 
+## DDL: CREATE TABLE, ALTER TABLE. Andmete defineerimise laused
+<img width="450" height="413" alt="image" src="https://github.com/user-attachments/assets/c1f1a700-2407-45fa-a2ea-90140375bc75" />
+
+<img width="943" height="528" alt="image" src="https://github.com/user-attachments/assets/f0036c36-3145-4938-8157-735000cd5531" />
+
+<img width="503" height="473" alt="image" src="https://github.com/user-attachments/assets/ba39229e-4867-4c98-a909-5efb613a7010" />
+
+<img width="1003" height="465" alt="image" src="https://github.com/user-attachments/assets/97171b67-623d-413a-8cc9-f4405203e127" />
+
+<img width="887" height="322" alt="image" src="https://github.com/user-attachments/assets/4ce99f5d-ef18-41f1-a074-3a43a49ed6ee" />
+
+<img width="1311" height="526" alt="image" src="https://github.com/user-attachments/assets/4bebce0d-1da1-4d78-83ed-7a22994a0402" />
+
+<img width="1151" height="511" alt="image" src="https://github.com/user-attachments/assets/2995cf7d-b828-40b6-b815-31dbde49787d" />
+
+<img width="1023" height="468" alt="image" src="https://github.com/user-attachments/assets/2aedd837-2875-47c9-b862-43f695e48d96" />
+
+<img width="1118" height="508" alt="image" src="https://github.com/user-attachments/assets/2629cc4d-8c64-470f-ab32-2df9d089706b" />
+
+<img width="1011" height="388" alt="image" src="https://github.com/user-attachments/assets/7678d2ea-62d8-4d4f-b274-d8d0feee149d" />
+
+<img width="787" height="246" alt="image" src="https://github.com/user-attachments/assets/f2fa350b-a739-4cb4-ac23-76e47b6bb034" />
+
+<img width="817" height="263" alt="image" src="https://github.com/user-attachments/assets/27646a88-1a1c-4bb6-a9f2-73b07aee95c0" />
+
+<img width="1214" height="592" alt="image" src="https://github.com/user-attachments/assets/85d47954-260d-42e8-b379-d60d8d1dedc0" />
+
+<img width="726" height="359" alt="image" src="https://github.com/user-attachments/assets/e79f0025-a7ac-410a-b0d6-277030be3bf1" />
+
