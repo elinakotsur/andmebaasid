@@ -47,3 +47,21 @@ EXEC kustutaGuest 1;
 ```
 <img width="358" height="433" alt="{C3024984-44A8-4005-A925-CFE6808A45F0}" src="https://github.com/user-attachments/assets/50d7c504-e968-4fd3-b722-d5e6c77b7352" />
 
+- guest otsimine
+
+```sql
+--otsimise esimese tähe järgi
+CREATE PROCEDURE otsing1taht
+@taht char(1)
+as
+begin
+	select * from guest where first_name LIKE @taht + '%'; --% teised sumbilid
+end
+
+--kutse
+EXEC otsing1taht 'D'
+```
+<img width="557" height="264" alt="{B5FBB6EF-CF9C-4960-9F62-646A33753070}" src="https://github.com/user-attachments/assets/c3ba1129-c249-4e6a-b08b-3968666be752" />
+
+
+
