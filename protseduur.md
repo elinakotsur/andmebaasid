@@ -30,7 +30,7 @@ EXEC lisaGuest 'Sveta', 'Arabova', '2020-06-03'
 
 <img width="393" height="199" alt="{3236F381-684D-4B8A-B272-A54C593F8162}" src="https://github.com/user-attachments/assets/8558a0c1-0715-40ae-b884-55bc79883caf" />
 
--guest kustutamine
+- guest kustutamine
 ```sql
 --protseduur, mis kustustab guest ig järgi
 CREATE PROCEDURE kustutaGuest
