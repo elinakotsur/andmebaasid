@@ -112,3 +112,27 @@ BEGIN
 ```
 <img width="559" height="509" alt="{FCA3B06B-6E1E-4175-BDDC-01F5A968F8F1}" src="https://github.com/user-attachments/assets/46b4aa75-0630-4a78-af32-a83ac68990bf" />
 
+-
+
+```sql
+--7. Protseduur, mis kuvab toodete nime, hinna ja lisab automaatselt hinnangu 
+
+CREATE PROCEDURE kuvaArveHinnand
+AS
+BEGIN
+    SELECT 
+        first_name,
+        arveSumma,
+        CASE 
+            WHEN arveSumma <= 1000 THEN 'väike summa'
+            ELSE 'suur summa'
+        END AS hinnang
+    FROM guest;
+END;
+
+--kutse
+EXEC kuvaArveHinnand
+```
+<img width="544" height="440" alt="{4DFBDD45-EC81-47AC-92E6-5632DDBB0328}" src="https://github.com/user-attachments/assets/290041e1-74f2-4a90-94f5-943a1fa00a6f" />
+
+
