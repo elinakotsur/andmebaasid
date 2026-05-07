@@ -63,5 +63,30 @@ EXEC otsing1taht 'D'
 ```
 <img width="557" height="264" alt="{B5FBB6EF-CF9C-4960-9F62-646A33753070}" src="https://github.com/user-attachments/assets/c3ba1129-c249-4e6a-b08b-3968666be752" />
 
+- guest min ja mx arve
+
+```sql
+--5. OUTPUT parameetrid (min ja max väärtus)
+CREATE PROCEDURE minmaxArve
+    @minArve MONEY OUTPUT,
+    @maxArve MONEY OUTPUT
+AS
+BEGIN
+    SELECT 
+        @minArve = MIN(arveSumma),
+        @maxArve = MAX(arveSumma)
+    FROM guest;
+END;
+
+--kutse
+DECLARE @minArve MONEY, @maxArve MONEY;
+
+EXEC minmaxArve @minArve OUTPUT, @maxArve OUTPUT;
+
+PRINT 'Min arv = ' + CONVERT(varchar, @minArve);
+PRINT 'Max arv = ' + CONVERT(varchar, @maxArve);
+```
+<img width="421" height="496" alt="{E445096D-5BBC-41C1-B34B-14E1EA86324D}" src="https://github.com/user-attachments/assets/b7470908-cf7d-4a85-be3d-6b9749e3cbf8" />
+
 
 
