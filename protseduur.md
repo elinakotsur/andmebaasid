@@ -88,5 +88,27 @@ PRINT 'Max arv = ' + CONVERT(varchar, @maxArve);
 ```
 <img width="421" height="496" alt="{E445096D-5BBC-41C1-B34B-14E1EA86324D}" src="https://github.com/user-attachments/assets/b7470908-cf7d-4a85-be3d-6b9749e3cbf8" />
 
+- veeru lisamine või kustutamine
 
+```sql
+--6. Dünaamiline SQL protseduuris (ALTER TABLE)
+--Protseduur veeru lisamiseks või kustutamiseks 
+CREATE PROCEDURE muudatus
+    @tegevus varchar(10),
+    @tabelinimi varchar(25),
+    @veerunimi varchar(25),
+    @tyyp varchar(25) = NULL
+AS
+BEGIN
+    DECLARE @sqltegevus varchar(max);
+
+    SET @sqltegevus = CASE 
+        WHEN @tegevus = 'add' THEN 
+            CONCAT('ALTER TABLE ', @tabelinimi, ' ADD ', @veerunimi, ' ', @tyyp)
+
+        WHEN @tegevus = 'drop' THEN 
+            CONCAT('ALTER TABLE ', @tabelinimi, ' DROP COLUMN ', @veerunimi)
+    END;
+```
+<img width="559" height="509" alt="{FCA3B06B-6E1E-4175-BDDC-01F5A968F8F1}" src="https://github.com/user-attachments/assets/46b4aa75-0630-4a78-af32-a83ac68990bf" />
 
