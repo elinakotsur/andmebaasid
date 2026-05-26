@@ -150,11 +150,46 @@ Ekraanipilt:
 
 <img width="284" height="198" alt="{667A143A-02A6-46CC-822A-90F5605D8D49}" src="https://github.com/user-attachments/assets/f0aafd1b-facb-4b41-a380-83ca44455a8d" />
 
-- Candidate Key
+- ## Candidate Key
+
+Definitsioon: Candidate Key on võimalik Primary Key kandidaat.
+
+Milleks kasutatakse: Unikaalse rea leidmiseks.
+
+Erinevus teistest võtmetest: Tabelis võib olla mitu Candidate Key-d, kuid ainult üks neist valitakse Primary Key-ks.
+
+Kood:
+```sql
+CREATE TABLE Opetajad (
+    opetaja_id INT PRIMARY KEY,
+    email VARCHAR(100) UNIQUE,
+    telefon VARCHAR(20) UNIQUE
+);
+```
+
+Ekraanipilt:
+
+<img width="300" height="211" alt="{E803D6E8-B069-4591-89A4-CF7F1996C84B}" src="https://github.com/user-attachments/assets/b83d99d9-ba80-48b0-8df7-1e7b64241f06" />
 
 
+- ## Alternate Key
 
-- Alternate Key
+Definitsioon: Alternate Key on Candidate Key, mida ei valitud Primary Key-ks.
 
+Milleks kasutatakse: Täiendava unikaalsuse tagamiseks.
 
+Erinevus teistest võtmetest: See ei ole peamine võti, kuid on samuti unikaalne.
+
+Kood:
+```sql
+CREATE TABLE Firmad (
+    firma_id INT PRIMARY KEY,
+    registrikood VARCHAR(20) UNIQUE
+);
+```
+
+Ekraanipilt:
+<img width="341" height="184" alt="{20ECDE2F-B6D2-4B06-87F8-5437F92CBB9E}" src="https://github.com/user-attachments/assets/abc38adb-1198-4aa1-90f6-c393be30c623" />
+
+https://www.geeksforgeeks.org/sql/sql-tutorial/
 https://www.w3schools.com/sql/sql_primarykey.asp?utm_source=chatgpt.com
