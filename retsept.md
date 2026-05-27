@@ -1,3 +1,4 @@
+```sql
 create database RetseptiRaamat
 use RetseptiRaamat
 --kasutaja
@@ -237,3 +238,4 @@ GRANT INSERT, UPDATE, DELETE ON retsept TO managerTITpv24;
 GRANT INSERT, UPDATE, DELETE ON koostis TO managerTITpv24;
 DENY INSERT ON toiduaine TO managerTITpv24;
 DENY INSERT ON kasutaja TO managerTITpv24;
+```
