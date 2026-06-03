@@ -1,6 +1,6 @@
 ## Trigger - triger - päästik
 - andmebaasi objekt mis automatselt käivitud tabeli sündmused (INSER, UPDATE, DELETE)
-
+### lisamise trigger 
 ```sql
 Create database trigerTITpv24;
 use trigerTITpv24;
@@ -43,6 +43,8 @@ VALUES ('Tallinn', 600000);
 INSERT INTO linnad(linnanimi, rahvaarv)
 VALUES ('Tartu', 250000);
 
+INSERT INTO linnad(linnanimi, rahvaarv)
+VALUES ('Viimsi', 2500);
 
 SELECT * FROM linnad;
 SELECT * FROM logi;
@@ -57,8 +59,61 @@ SELECT
 SYSTEM_USER,
 GETDATE(),  --aeg
 'on tehtud INSERT käsk',  --toiming
-CONCAT('linn: ', inserted.linnanimi , 'rahvaarv: ', inserted.rahvaarv) --andmed
+CONCAT('linn: ', inserted.linnanimi , ', rahvaarv: ', inserted.rahvaarv) --andmed
 FROM inserted;
 ```
 
-<img width="585" height="439" alt="{36693FAE-8A98-4D07-88F8-D01CF185065C}" src="https://github.com/user-attachments/assets/a6e8de56-20e7-4b6e-ad85-e7f267cc4cfb" />
+<img width="621" height="331" alt="{6B66A5CB-7062-4D51-B408-A17811569EC9}" src="https://github.com/user-attachments/assets/f42302ba-c324-4251-b593-406069bbf2f9" />
+
+### kustutamise triger
+
+```sql
+CREATE TRIGGER kustutamine
+ON linnad --tabelinimi, mis on vaja jälgida
+FOR DelEte
+AS
+INSERT INTO logi(kasutaja, aeg, toiming, andmed)
+SELECT
+SYSTEM_USER,
+GETDATE(),  --aeg
+'on tehtud DELETE käsk',  --toiming
+CONCAT('linn: ', deleted.linnanimi , ', rahvaarv: ', deleted.rahvaarv) --andmed
+FROM deleted;
+
+--kontroll kustutamine
+DELETE from linnad where linnID=1;
+
+SELECT * FROM linnad;
+SELECT * FROM logi;
+```
+
+<img width="683" height="210" alt="{02395B8F-8110-442F-8766-43112642B3E2}" src="https://github.com/user-attachments/assets/6f656c2b-9ff2-44b7-bc72-4a73f52edac1" />
+
+ ### triger update 
+
+ ```sql
+CREATE TRIGGER linnaUUendamine
+ON linnad --tabelinimi, mis on vaja jälgida
+FOR UPDATE
+AS
+INSERT INTO logi(kasutaja, aeg, toiming, andmed)
+SELECT
+SYSTEM_USER,
+GETDATE(),  --aeg
+'on tehtud UPDATE käsk',  --toiming
+CONCAT('VANAD: linn: ', deleted.linnanimi , ', rahvaarv: ', deleted.rahvaarv,
+'||| UUED: linn: ', inserted.linnanimi , ', rahvaarv: ', inserted.rahvaarv) --andmed
+FROM deleted INNER JOIN inserted
+on deleted.linnID=inserted.linnID;
+
+--kontroll uuendamine
+
+update linnad set linnanimi='Narva-väike', rahvaarv=50 where linnID=2
+
+SELECT * FROM linnad;
+SELECT * FROM logi;
+ ```
+
+<img width="941" height="246" alt="{51FDB3A2-E975-4F8C-9420-D4BFF56E009B}" src="https://github.com/user-attachments/assets/f6f1d990-ef1d-46c1-bb3e-c7ad86e5bff8" />
+
+
