@@ -3,11 +3,13 @@
 [põhimõisted](README.md) | [hotelliruumide loomine](hotelliruum.md) | [kasutajade loomine](kasutaja.md) | [kasutajade loomineXAMPPis](xamppkasutajad.md) | [küsimusedSQL](kysimused.md) | [trigerid](trigger.md) | [protseduurid SQL Serveris](protseduur.md) | [protseduurid XAMPPis](protseduurxampp.md) | [keys kodutöö](keys.md)
 
 ### Table
+
 ```sql
 create Database hotellKOTSURbaas;
 use hotellKOTSURbaas;
 ```
 - guest
+
 ```sql
 create table guest(
 guestID int primary key identity(1,1),
@@ -26,9 +28,11 @@ values ('dasa', 'kovalenko', '2024-8-14');
 insert into guest
 values ('dima', 'pozekov', '2024-8-15');
 ```
+
 <img width="315" height="121" alt="{C1853BE5-0C5E-4810-8589-83A022BD7BA3}" src="https://github.com/user-attachments/assets/64765c1b-c765-4732-87ac-9bddc884bfa3" />
 
 - reservation
+
 ```sql
 --2. reservation
 
