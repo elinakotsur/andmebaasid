@@ -133,3 +133,16 @@ SELECT * FROM logi;
 ### update
 
 <img width="634" height="592" alt="{A071166D-BECD-4B96-82F2-61D46D330FD6}" src="https://github.com/user-attachments/assets/a583abe6-57a8-4fd0-96d7-d56a32983b0c" />
+
+```sql
+select * from logi
+
+
+select *from lemmikloomatooted
+
+INSERT INTO lemmikloomatooted
+VALUES ('kassitoit2', 4,77);
+
+DELETE from lemmikloomatooted where ID=3;
+select *from lemmikloomatooted
+```
