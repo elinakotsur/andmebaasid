@@ -1,4 +1,7 @@
 ## Trigger - triger - päästik
+
+[põhimõisted](README.md) | [hotelliruumide loomine](hotelliruum.md) | [kasutajade loomine](kasutaja.md) | [kasutajade loomineXAMPPis](xamppkasutajad.md) | [küsimusedSQL](kysimused.md) | [trigerid](trigger.md) | [protseduurid SQL Serveris](protseduur.md) | [protseduurid XAMPPis](protseduurxampp.md) | [keys kodutöö](keys.md)
+
 - andmebaasi objekt mis automatselt käivitud tabeli sündmused (INSER, UPDATE, DELETE)
 ### lisamise trigger 
 ```sql
