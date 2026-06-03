@@ -1,3 +1,7 @@
+## Kasutajad XAMPpis
+
+[põhimõisted](README.md) | [hotelliruumide loomine](hotelliruum.md) | [kasutajade loomine](kasutaja.md) | [kasutajade loomineXAMPPis](xamppkasutajad.md) | [küsimusedSQL](kysimused.md) | [trigerid](trigger.md) | [protseduurid SQL Serveris](protseduur.md) | [protseduurid XAMPPis](protseduurxampp.md) | [keys kodutöö](keys.md)
+
 <img width="942" height="340" alt="{8235A9AD-797A-4F37-8159-8D6709A00861}" src="https://github.com/user-attachments/assets/4eb052bb-9c07-46bd-8ac3-d7eaf094f197" />
 
 -
