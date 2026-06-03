@@ -1,3 +1,5 @@
+```sql
+
 Create database trigerTITpv24;
 use trigerTITpv24;
 --
@@ -165,4 +167,4 @@ grant select, insert, update, delete on linnad to sekuritiElina;
 deny select on logi to sekuritiElina;
 
 deny alter any database DDL TRIGGER to sekuritiElina
-
+```
