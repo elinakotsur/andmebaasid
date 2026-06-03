@@ -1,6 +1,8 @@
-# Andmebaasid
-andmebaaside seotud SQL kood ja konspektid
+# Andmebaaside konspektid | Elina Kotsur TITpv24
 
+[põhimõisted](README.md) | 
+
+andmebaaside seotud SQL kood ja konspektid
 ## Sisukord
 - [Põhimõisted](#pohimoisted)
 - [Andmetüübiid](#andmetüübiid)
