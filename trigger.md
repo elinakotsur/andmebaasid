@@ -117,3 +117,16 @@ SELECT * FROM logi;
 <img width="941" height="246" alt="{51FDB3A2-E975-4F8C-9420-D4BFF56E009B}" src="https://github.com/user-attachments/assets/f6f1d990-ef1d-46c1-bb3e-c7ad86e5bff8" />
 
 
+## XAMPP
+
+### insert
+
+<img width="668" height="665" alt="{2E6F5E59-7C9B-4EC9-851C-B04DCA8D759F}" src="https://github.com/user-attachments/assets/1d5842bd-63e7-429d-a521-a28e071d2e24" />
+
+### delete
+
+<img width="672" height="613" alt="{BFB9C361-7FAA-4A2C-A649-A7E96E865A4E}" src="https://github.com/user-attachments/assets/8a4cb74e-10bd-429f-9477-65cd5b49fbf2" />
+
+### update
+
+<img width="634" height="592" alt="{A071166D-BECD-4B96-82F2-61D46D330FD6}" src="https://github.com/user-attachments/assets/a583abe6-57a8-4fd0-96d7-d56a32983b0c" />
