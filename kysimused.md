@@ -1,4 +1,7 @@
 ## DML: INSERT, UPDATE, DELETE. Andmete töötlemise keel
+
+[põhimõisted](README.md) | [hotelliruumide loomine](hotelliruum.md) | [kasutajade loomine](kasutaja.md) | [kasutajade loomineXAMPPis](xamppkasutajad.md) | [küsimusedSQL](kysimused.md) | [trigerid](trigger.md) | [protseduurid SQL Serveris](protseduur.md) | [protseduurid XAMPPis](protseduurxampp.md) | [keys kodutöö](keys.md)
+
 -
 <img width="849" height="202" alt="{669FE206-0C31-4C29-9702-A8C12F2DF5FF}" src="https://github.com/user-attachments/assets/73825885-2002-444e-b521-8ea81717d1c3" />
 
